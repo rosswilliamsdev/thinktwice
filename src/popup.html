@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>ThinkTwice</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">ThinkTwice</h1>
+      <p class="subtitle">A pause before you buy.</p>
+    </header>
+
+    <div class="toggle-row">
+      <span id="status-label" class="status-label">On</span>
+      <label class="switch">
+        <input type="checkbox" id="toggle" checked />
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <p class="hint">
+      Removes Buy Now buttons and adds a 30-second pause at checkout on Amazon.
+    </p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
